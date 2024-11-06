@@ -4,7 +4,7 @@ In this repo I plan on posting mostly notes, examples and tutorials for those st
 ## Get started
 The tutorials are supposed to be independent from eachother but the recommended order to read them:
 
-2. Unix
+2. Unix and the Terminal
 3. Git and Github
 4. Markdown for notes
 
