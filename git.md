@@ -68,7 +68,7 @@ To connect to GitHub securely, you can set up SSH authentication. This is a “s
 
      (Here, ed25519 is the algorithm used to generate a personal SSH key.)
 
-   - Press `Enter` to accept the default location, and set a passphrase for extra security.
+   - Press `Enter` to accept the default location, and optionally set a passphrase for extra security.
 
 2. **Add the SSH Key to GitHub**:
    - Open the key file by running `cat ~/.ssh/id_ed25519.pub` in **Terminal** (or **Git Bash** for Windows users) to display the SSH public key.
