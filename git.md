@@ -68,10 +68,11 @@ To connect to GitHub securely, you can set up SSH authentication. This is a “s
 
      (Here, ed25519 is the algorithm used to generate a personal SSH key.)
 
-   - Press `Enter` to accept the default location, and optionally set a passphrase for extra security.
+   - Press `Enter` to accept the default location, and set a passphrase for extra security.
 
 2. **Add the SSH Key to GitHub**:
    - Open the key file by running `cat ~/.ssh/id_ed25519.pub` in **Terminal** (or **Git Bash** for Windows users) to display the SSH public key.
+   - Copy the whole row given as output when running the command above.
    - Log in to GitHub, go to **Settings** > **SSH and GPG keys** > **New SSH key**.
    - Paste the key into the **Key** field and give it a descriptive title like "My Laptop".
    - [GitHub's guide on SSH setup](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) provides more details.
@@ -93,8 +94,8 @@ To connect to GitHub securely, you can set up SSH authentication. This is a “s
 Once Git is installed and SSH is set up, configure Git with your username and email. This information will be associated with your commits, making it clear who made each change.
 
 ```bash
-git config --global user_name "Your Name"
-git config --global user_email "your.email@example.com"
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
 ```
 
 - `user_name`: Sets the name that will appear in your commits.
