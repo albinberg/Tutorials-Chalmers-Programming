@@ -3,17 +3,18 @@
 The `json` library in Python is a powerful tool for working with JSON (JavaScript Object Notation) data. JSON is a popular data format used for exchanging data between a server and a client. This tutorial will guide you through the basics of using the `json` library in Python.
 
 ## Table of Contents
+
 - [Tutorial: Using the `json` Library in Python](#tutorial-using-the-json-library-in-python)
   - [Table of Contents](#table-of-contents)
   - [Introduction to JSON](#introduction-to-json)
   - [Loading JSON Data](#loading-json-data)
   - [Dumping JSON Data](#dumping-json-data)
   - [Working with JSON Files](#working-with-json-files)
-  - [Advanced Usage](#advanced-usage)
 
 ## Introduction to JSON
 
 JSON is a lightweight data interchange file format that is easy for humans to read and write, and easy for machines to parse and generate. It is built on two structures:
+
 - A collection of key/value pairs (often called an object, **dictionary**, hash table, or associative array).
 - An ordered list of values (often called an array, list, or sequence).
 
@@ -64,5 +65,3 @@ with open('data.json', 'r') as json_file:
 print(python_obj)
 # Output: {'name': 'John', 'age': 30, 'city': 'New York'}
 ```
-
-## Advanced Usage
