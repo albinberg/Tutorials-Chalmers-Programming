@@ -206,6 +206,27 @@ These commands are essential for managing your project with Git:
 
 ---
 
+## Updating a repository
+
+If you've cloned a repository once and want to update it with changes made in the original repository without creating duplicate files (or "dubletter"), you don’t need to clone it again. Instead, you can `pull` the latest changes. Here’s how:
+
+1. **Navigate to the repository folder** on your local machine (where you initially cloned it):
+
+   ```bash
+   cd path/to/your/cloned/repo
+   ```
+
+2. **Pull the latest changes** from the remote repository:
+
+   ```bash
+   git pull
+   ```
+
+This `git pull` command will fetch and merge any new commits made to the remote repository into your local clone, keeping it up-to-date without creating duplicate files.
+
+### If There Are Conflicts
+If changes in the remote repo conflict with changes you've made locally, Git will notify you of merge conflicts. You’ll need to resolve these conflicts manually and then commit the resolved changes. 
+
 ## Typical Example Workflow
 
 Let's walk through a common scenario where you're collaborating on a project and want to add a new feature.
