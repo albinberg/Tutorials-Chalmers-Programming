@@ -105,14 +105,14 @@ To connect to GitHub securely, you can set up SSH authentication. This is a “s
 Once Git is installed and SSH is set up, configure Git with your username and email. This information will be associated with your commits, making it clear who made each change.
 
 ```bash
-git config --global user_name "Your Name"
-git config --global user_email "your.email@example.com"
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
 ```
-**If using `user_name` or `user_email`** : Try using `user.name` or `user.email`.
+**If using `user.name` or `user.email`** doesn't work: Try using `user_name` and `user_email`.
 
-- `user_name`: Sets the name that will appear in your commits.
-- `user_email`: Sets the email that will appear in your commits. <br>
-  (use the same email as on GitHub for consistency).
+- `user.name`: Sets the name that will appear in your commits.
+- `user.email`: Sets the email that will appear in your commits. <br>
+  (use the same email as on your GitHub for consistency).
 
 You can verify your configuration by running:
 
