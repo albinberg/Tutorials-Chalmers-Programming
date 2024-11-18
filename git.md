@@ -17,6 +17,8 @@ This guide covers the basics of setting up Git, creating a GitHub repository for
   - [Configuring Git](#configuring-git)
   - [Creating a GitHub Repository](#creating-a-github-repository)
   - [Essential Git Commands](#essential-git-commands)
+  - [Updating a repository](#updating-a-repository)
+    - [If There Are Conflicts](#if-there-are-conflicts)
   - [Typical Example Workflow](#typical-example-workflow)
     - [Step 1: Clone the Repository](#step-1-clone-the-repository)
     - [Step 2: Create a New Branch](#step-2-create-a-new-branch)
@@ -35,7 +37,7 @@ This guide covers the basics of setting up Git, creating a GitHub repository for
 
 ## Introduction to Git and GitHub
 
-**Git** is a version control system that allows you to track changes to your code over time, manage versions, and collaborate with others. **GitHub** is a cloud-based platform that hosts Git repositories, making it easy to share, collaborate, and manage projects with others.
+**Git** is a version control system that allows you to track changes to your code over time, manage versions, and collaborate with others. **GitHub** is a cloud-based platform that hosts git **repositories**, making it easy to share, collaborate, and manage projects with others. There are alternatives to Github, but they all use **git**.
 
 ---
 
