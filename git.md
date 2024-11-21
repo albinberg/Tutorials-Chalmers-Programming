@@ -39,6 +39,8 @@ This guide covers the basics of setting up Git, creating a GitHub repository for
 
 **Git** is a version control system that allows you to track changes to your code over time, manage versions, and collaborate with others. **GitHub** is a cloud-based platform that hosts git **repositories**, making it easy to share, collaborate, and manage projects with others. There are alternatives to Github, but they all use **git**.
 
+**Sidenote:** You can use vscode to handle version control (git and github) by opening the version control extension in the activity bar (`ctrl + shift + G` or `cmd + shift + G`). It is recommended to follow the rest of the guide noetheless, so that you might better understand what you are doing. 
+
 ---
 
 ## Installing Git
